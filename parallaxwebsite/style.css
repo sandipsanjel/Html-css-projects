@@ -1,0 +1,14 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    ;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+p {
+    font-size: 40px;
+}
