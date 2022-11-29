@@ -1,33 +1,82 @@
-/* * {
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     ;
-    } */
+}
 
 body {
     background-color: aliceblue;
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8rem;
+    color: #666;
 }
 
-p {
-    font-size: 40px;
-}
-
-.images {
-
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
+.dark {
+    background-image: url(img/dark.jpg);
+    min-height: 400px;
 
 }
 
 .khola {
-    height: 631px;
-    width: 640px;
+    background-image: url(img/khola.jpg);
+    min-height: 400px;
+
 }
 
 .thunder {
-    height: 631px;
-    width: 640px;
+    background-image: url(img/thunder.jpg);
+    min-height: 400px;
+
+}
+
+
+.dark,
+.khola,
+.thunder {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 27px;
+    color: black;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.textbackground {
+    background: #313534;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+}
+
+section {
+    padding: 50px 60px;
+    text-align: center;
+
+
+}
+
+.section-light {
+    background-color: white;
+    color: #666;
+}
+
+.section-dark {
+    background-color: #282e34;
+    color: #ddd;
 }
