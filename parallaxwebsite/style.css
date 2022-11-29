@@ -1,9 +1,9 @@
-* {
+/* * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     ;
-}
+    } */
 
 body {
     background-color: aliceblue;
@@ -11,4 +11,23 @@ body {
 
 p {
     font-size: 40px;
+}
+
+.images {
+
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+}
+
+.khola {
+    height: 631px;
+    width: 640px;
+}
+
+.thunder {
+    height: 631px;
+    width: 640px;
 }
