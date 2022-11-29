@@ -74,9 +74,11 @@ section {
 .section-light {
     background-color: white;
     color: #666;
+    text-align: justify;
 }
 
 .section-dark {
     background-color: #282e34;
     color: #ddd;
+    text-align: justify;
 }
