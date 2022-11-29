@@ -20,8 +20,8 @@ body {
     padding: 20px;
     background-color: white;
     margin: 0 auto;
-    margin-top: 50px;
-    box-shadow: 10px 10px 10px 10px rgba(2, 2, 2, 0.5);
+    margin-top: 10px;
+    box-shadow: 11px 11px rgba(2, 2, 2, 0.5);
     border-radius: 10px;
 
 }
@@ -97,17 +97,17 @@ button:hover {
     color: white;
 }
 
-.text_controler {
-    grid-column: 1/span 2;
+.grid_control {
+    grid-column: 1/ span 2;
 
 }
 
-.text_controler textarea {
+.grid_control textarea {
     width: 100%
 }
 
 @media (max-width:460px) {
-    .text_controler {
-        grid-column: 1/span 1
+    .grid_control {
+        grid-column: 1/span 2;
     }
 }
