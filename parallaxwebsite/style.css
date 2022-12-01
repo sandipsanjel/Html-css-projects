@@ -57,7 +57,12 @@ body {
     text-transform: uppercase;
 }
 
-
+.textbackground {
+    background: #313534;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+}
 
 section {
     padding: 50px 60px;
