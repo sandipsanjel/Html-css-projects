@@ -1,1 +1,1 @@
-# project1
+static pages with html and css only 
